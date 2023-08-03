@@ -1,0 +1,87 @@
+
+.contenedor{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#solar_calculator_form {
+    display:flex; 
+    flex-direction: column; 
+    width: 300px;
+    border:2px solid black;
+    padding: 30px 10px;
+    background-color: #4abdac;
+    margin-bottom: 20px;
+}
+
+.imagen{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imagen img{
+    width:100px;
+    height: auto;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:aliceblue;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+input, select {
+    padding: 5px 10px; 
+    margin-bottom: 20px;
+}
+
+select#provincia{
+    margin-bottom: 20px;
+}
+
+input[type=submit]{
+    background-color: #f7b733;
+    width: 100px;
+    height: 40px;
+    transition: 0.5 all ease-in;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #c7c7c7;
+    
+}
+
+.resultado{
+    padding: 30px 20px;
+    width:300px;
+    background-color: #4abdac;
+    font-size: 20px;
+    font-weight: 700;
+    border:2px solid #373737;
+}
+
+p.etiqueta{
+    margin-top:-5px;
+    font-size: 12px;
+}
+
+.numero_paneles{
+
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    margin-bottom:25px;
+
+}
+
+.texto_paneles{
+    font-size: 18px;
+}
+
+
